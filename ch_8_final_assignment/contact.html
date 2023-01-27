@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+</head>
+<body>
+  <div style="max-width: 95%; margin: 0 auto; background-color: #5B9BD5; border-radius: 20px;">
+    <ul style="list-style:none; padding: 10px 20px; font-family: Arial, Helvetica, sans-serif;">
+      <li style="display: inline-block; margin: 0 30px; margin-right: 70px;"><img src="logo.png" alt="" width="100"></li>
+      <li style="display: inline-block; margin: 0 30px; "><a href="index.html" style="text-decoration: none; color: #000; font-size: 1.5rem;">Home</a></li>
+      <li style="display: inline-block; margin: 0 30px; "><a href="about.html" style="text-decoration: none; color: #000; font-size: 1.5rem;">About</a></li>
+      <li style="display: inline-block; margin: 0 30px; "><a href="portfolio.html" style="text-decoration: none; color: #000; font-size: 1.5rem;">Portfolio</a></li>
+      <li style="display: inline-block; margin: 0 30px; "><a href="contact.html" style="text-decoration: none; color: #000; font-size: 1.5rem;">Contact</a></li>
+    </ul>
+  </div>
+
+  <div style="max-width: 95%; margin-left: 50px;">
+    <fieldset>
+      <legend>Your Details:</legend>
+      <label>Name:<input type="text" name="name"></label><br>
+      <label>email:<input type="text" name="email"></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Review:</legend>
+      <label>How did you hear about us?
+        <select name="" id="">
+          <option value="google">Google</option>
+          <option value="microsoft">Microsoft</option>
+          <option value="apple">Apple</option>
+        </select>
+      </label>
+
+      <label for="">Would you visit again?<br>
+        <input type="radio" name="visit" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="visit" id="no" value="no">
+        <label for="no">No</label>
+        <input type="radio" name="visit" id="maybe" value="maybe">
+        <label for="maybe">Maybe</label>
+      </label><br><br>
+  
+      <label for="comments">Comments: <br>
+        <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+      </label><br><br>
+      <label for="sign-up">
+        <input type="checkbox" id="sign-up" name="sign-up" value="signup" checked>
+        Sign me up for  email updates
+      </label><br>
+      <input type="submit" value="Submit review">
+    </fieldset>
+  </div>
+
+  <div style="max-width: 95%; margin: 0 auto; background-color: #5B9BD5; border-radius: 15px; padding: 5px;">
+    <p style="text-align: center;">Copyright 	&#169; 2023. All rights reserved.</p>
+</body>
+</html>
