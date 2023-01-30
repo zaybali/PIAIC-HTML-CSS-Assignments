@@ -22,7 +22,7 @@
       color: #484848;
       text-transform: uppercase;
     }
-    h2{
+    .main-heading{
       text-transform: uppercase;
       text-shadow: 1px 1px 5px #b7c4f4;
       color: #414141;
@@ -42,6 +42,25 @@
     li>span{
       color: #1a12fb;
     }
+
+    .sub-heading{
+      text-transform: capitalize;
+      color: #414141;
+      font-family: Arial, Helvetica, sans-serifs;
+
+    }
+    .sub-heading::first-letter{
+      font-weight: bolder;
+      font-size: 2.5rem;
+    }
+
+    .cnc{
+      color:#414141
+    }
+
+    h3{
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -53,7 +72,7 @@
   <div>
     <h1>piaic</h1>
 
-    <h2>presidential initiative for artificial intelligence and computing</h2>
+    <h2 class="main-heading">presidential initiative for artificial intelligence and computing</h2>
       <p>
         Presidential Initiative for Artificial Intelligence and Computing (PIAIC) is a privately funded notfor-profit educational initiative started by President of Pakistan, Dr. Arif Alvi, Kazi Rahat Ali, and
         Zia Khan to help promote education, research and business opportunities in emerging tech
@@ -65,6 +84,37 @@
         <li>Blockchain</li>
         <li>Internet Of Things</li>
       </ul>
+
+      <h2 class="sub-heading">cloud native computing:</h2>
+      <p class="cnc">
+        The <strong>Cloud Native Computing</strong> program prepares the students to program in open source
+        technologies like, <em><strong>Linux, Docker, Kubernetes, JavaScript, Node.js, React and React Native</strong></em>
+        while introducing the students to development of Microservices and software development
+        techniques on cloud platforms like AWS.
+      </p>
+
+      <h2 class="sub-heading">artificial intelligence:</h2>
+      <p class="cnc">
+        The <strong>artificial intelligence</strong> program of PIAIC takes the student through the foundation of the AI
+        technology, via teaching programming in open source languages like <em><strong>Python, Numpy, Pandas,Tensorflow 2.0 and Flask,</strong></em> and teaching deploying practical AI solutions and use cases, and
+        ending with real-life examples of modern day AI in practice.
+      </p>
+
+      <h2 class="sub-heading">blockchain:</h2>
+      <p class="cnc">
+        The main emphasis of <strong>Blockchain</strong> program is to understand the blockchains like <em><strong>Ethereum and Hyperledger (Fabric),</strong></em> and learn to program in languages such as Solidity, JavaScript on
+        frameworks like Node.js. The program also introduces them to development of Distributed Apps
+        (DApps), frameworks like Web3 and Truffle and an in-depth understanding of Blockchain-as-aservice (BaaS) and how to develop and offer an Initial Coin Offering (ICO) of a crypto-token.
+      </p>
+
+      <h2 class="sub-heading">internet of things:</h2>
+      <p class="cnc">
+        The <strong>Internet of things</strong> program introduces the students to open source development
+        technologies like <em><strong>Rust, Embedded Rust, WebAssembly, Hyper, Diesel, Google Assistant,and Kubernetes</strong></em> while making them efficient in developing Micro Services for IoT Edge, IoT
+        Cloud, and voice computing for device control.
+      </p>
+
+      <h3><em><strong>By:<u><a href="https://github.com/iamzakofficial">Zaib Ali</a></u></strong></em></h3>
   </div>
   
 </body>
