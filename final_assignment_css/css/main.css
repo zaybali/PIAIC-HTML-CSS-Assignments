@@ -517,6 +517,16 @@ video {
   width: 100%;
 }
 
+#hero {
+  background: url(./images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact {
+  margin-bottom: 15px
+}
+
 @media (min-width: 480px) {
   .container {
     max-width: 480px;
