@@ -10,7 +10,7 @@
   height: 24px;
   transition: all .25s;
   position: relative;
-}
+}   
 
 .hamburger-top,
 .hamburger-middle,
@@ -49,4 +49,10 @@
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 
+}
+
+#hero {
+  background: url(./images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
